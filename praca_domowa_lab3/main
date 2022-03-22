@@ -1,1 +1,76 @@
+# #zad1
+# A = [1-x for x in range (1,10)]
+# print(lista)
+
+# B=[pow(4,x)for x in range (0,7)]
+# print(B)
+
+# C=[x for x in B if x%2==0]
+# print(C)
+
+#zad2
+# import random
+# lista1 = random.sample(range(1, 100), 10)
+# print(lista1)
+# lista2= [x for x in lista1 if x%2==0]
+# print(lista2)
+
+#zad3
+# slownik={'jajka':'sztuki', 'mąka':'kg','makron': 'sztuki' }
+# print(slownik)
+# lista = {value: key for key, value in slownik.items()}
+# print(lista)
+#zad4
+# def czyprostokatny(x,y,z):
+#     if(pow(x,2) + pow(y,2) == pow(z,2) ):
+#         print('trojkat prostokatny')
+#     else:
+#         print('Nie jest prostokatny')
+#
+# czyprostokatny(3,4,5)
+
+#zad5
+# def pole_trapezu(a,b,h):
+#     print((a+b*h)/2)
+# pole_trapezu(2,4,6)
+
+# #zad6
+# def ilociong(a=1,b=4,ile=10):
+#     wynik = a
+#     element = []
+#     for x in range(ile):
+#         x = a + x*b
+#         element.append(x)
+#         wynik*= x
+#     print(element)
+#     return wynik
+# print(ilociong())
+
+#zad7
+# import math
+# def ciag(*liczby):
+#     if len(liczby)==0:
+#         return 0
+#     else:
+#         zad=[x for x in liczby]
+#         print(zad)
+#         iloczyn_wyrazow_ciagu = 1
+#         for x in liczby:
+#             iloczyn_wyrazow_ciagu *= x
+#         return iloczyn_wyrazow_ciagu
+#
+# print(ciag(1,1,3,12))
+
+# zad8
+# def licz_produkty(** produkty):
+#     ilosc = 0
+#     suma = 0
+#     for pr in produkty:
+#         ilosc += 1
+#         suma += int(produkty[pr])
+#     print('Ilosc: ' + str(ilosc) + ', suma: ' + str(suma))
+#
+# licz_produkty(chleb = 3, maslo = 2, cukier = 20)
+
+
 
